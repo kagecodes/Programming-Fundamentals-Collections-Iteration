@@ -57,6 +57,27 @@ family = {Kat: 22, Karen: 21, Ernest: 17}
 
 # puts age.sort.reverse
 
-movies[:Beauty_and_the_Beast] = [1994, 2017]
+# movies[:Beauty_and_the_Beast] = [1994, 2017]
+#
+# puts movies
 
-puts movies
+
+
+# Exercise 4
+
+
+# family.each do |name, age|
+#   if age < 30
+#     puts "#{age}"
+#   end
+# end
+
+# puts age.max
+
+# puts coin_flip.count("heads")
+
+# artists.delete("Pentatonix")
+# puts artists
+
+# cities[:Toronto] = 260000
+# puts cities
