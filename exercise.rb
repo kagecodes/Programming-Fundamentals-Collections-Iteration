@@ -169,3 +169,15 @@ country = [{name: "Canada", continent: "North America", island: false}, {name: "
 #
 # puts "These are the countries that are not islands: #{new_array1}"
 # puts "These are the countries that are islands: #{new_array2}"
+
+
+
+# Exercise 8
+
+expenses = [120, 229, 178, 203, 180]
+
+sum = 0
+expenses.each do |numbers|
+  sum += numbers
+end
+puts sum
