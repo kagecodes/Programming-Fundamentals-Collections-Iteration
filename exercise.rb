@@ -81,3 +81,32 @@ family = {Kat: 22, Karen: 21, Ernest: 17}
 
 # cities[:Toronto] = 260000
 # puts cities
+
+
+
+# Exercise 5
+
+
+total_population = 0
+cities.each do |city, population|
+  total_population += population
+end
+puts total_population
+
+
+# family.each do |name, age|
+#   if age > 20
+#     puts "#{name} is old"
+#   else
+#     puts "#{name} is young"
+#   end
+# end
+
+# puts fav_colours[-2..-1]
+
+# age.each do |number|
+#   number += 1
+#   puts "#{number}"
+# end
+
+# puts fav_colours.push('blue', 'green')
