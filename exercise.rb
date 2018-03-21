@@ -123,6 +123,49 @@ family = {Kat: 22, Karen: 21, Ernest: 17}
 #   puts "#{item} \n"
 # end
 
-# country = [{name: "Canada", continent: "North America", island: "no"}, {name: "France", continent: "Europe", island: "no"}, {name: "Philippines", continent: "Asia", island: "yes"}]
+country = [{name: "Canada", continent: "North America", island: false}, {name: "France", continent: "Europe", island: false}, {name: "New Zealand", continent: "Oceania", island: true}]
 #
 # puts country
+
+
+
+# Exercise 7
+
+
+# 20.times {print "I will not skateboard in the halls"}
+
+# puts Array.new(20, "I will not skateboard in the halls")
+
+# a = (1..50)
+# a.to_a
+#
+# sum = 0
+# a.each do |number|
+#   sum += number
+# end
+# puts sum
+
+# i = 1
+# num = []
+# until i == 50
+#   num.push(i)
+#   num.push(i)
+#   num.push(i)
+#   i += 1
+# end
+
+# puts num
+
+# new_array1 = []
+# new_array2 = []
+#
+# country.each do |profile|
+#   if profile[:island] == false
+#     new_array1 << profile
+#   else
+#     new_array2 << profile
+#   end
+# end
+#
+# puts "These are the countries that are not islands: #{new_array1}"
+# puts "These are the countries that are islands: #{new_array2}"
