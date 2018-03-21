@@ -31,15 +31,32 @@ family = {Kat: 22, Karen: 21, Ernest: 17}
 # Exercise 2
 
 
-puts fav_colours[-1]
+# puts fav_colours[-1]
 
-cities[:SaltLakeCity] = "190000"
-puts cities
+# cities[:SaltLakeCity] = "190000"
+# puts cities
 
-puts coin_flip.reverse
+# puts coin_flip.reverse
 
-puts cities[:NewYork]
+# puts cities[:NewYork]
 
-artists.each do |name|
-  puts "I think #{name} is great."
-end
+# artists.each do |name|
+#   puts "I think #{name} is great."
+# end
+
+
+
+# Exercise 3
+
+
+# puts artists[0..1]
+
+# movies.each do |title, year|
+#   puts "#{title} came out in #{year}."
+# end
+
+# puts age.sort.reverse
+
+movies[:Beauty_and_the_Beast] = [1994, 2017]
+
+puts movies
