@@ -87,12 +87,11 @@ family = {Kat: 22, Karen: 21, Ernest: 17}
 # Exercise 5
 
 
-total_population = 0
-cities.each do |city, population|
-  total_population += population
-end
-puts total_population
-
+# total_population = 0
+# cities.each do |city, population|
+#   total_population += population
+# end
+# puts total_population
 
 # family.each do |name, age|
 #   if age > 20
@@ -110,3 +109,16 @@ puts total_population
 # end
 
 # puts fav_colours.push('blue', 'green')
+
+
+
+# Exercise 6
+
+# films = { 1999=> ["The Matrix", "Star Wars: Episode 1", "The Mummy"], 2009 => ["Avatar", "Star Trek", "District 9"], 2019 => ["How to Train Your Dragon 3", "Toy Story 4", "Star Wars: Episode 9"] }
+#
+# puts films
+
+# phone_dial = [[1, 2, 3], [4, 5, 6], [7, 8, 9], ['*', 0, '#']]
+# phone_dial.each do |item|
+#   puts "#{item} \n"
+# end
