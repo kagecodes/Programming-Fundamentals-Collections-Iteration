@@ -19,3 +19,6 @@ puts fav_colours[0]
 puts age.sort
 puts age << 0
 puts movies[:The_Avengers]
+
+
+ 
