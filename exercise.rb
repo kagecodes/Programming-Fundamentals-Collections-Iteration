@@ -114,7 +114,7 @@ family = {Kat: 22, Karen: 21, Ernest: 17}
 
 # Exercise 6
 
-# films = { 1999=> ["The Matrix", "Star Wars: Episode 1", "The Mummy"], 2009 => ["Avatar", "Star Trek", "District 9"], 2019 => ["How to Train Your Dragon 3", "Toy Story 4", "Star Wars: Episode 9"] }
+# films = { 1999 => ["The Matrix", "Star Wars: Episode 1", "The Mummy"], 2009 => ["Avatar", "Star Trek", "District 9"], 2019 => ["How to Train Your Dragon 3", "Toy Story 4", "Star Wars: Episode 9"] }
 #
 # puts films
 
@@ -122,3 +122,7 @@ family = {Kat: 22, Karen: 21, Ernest: 17}
 # phone_dial.each do |item|
 #   puts "#{item} \n"
 # end
+
+# country = [{name: "Canada", continent: "North America", island: "no"}, {name: "France", continent: "Europe", island: "no"}, {name: "Philippines", continent: "Asia", island: "yes"}]
+#
+# puts country
