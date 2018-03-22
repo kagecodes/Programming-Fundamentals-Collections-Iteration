@@ -1,7 +1,8 @@
 # 1
 students = {:cohort1 => 34, :cohort2 => 42, :cohort3 => 22}
 
-#
+# 2
+
 def statement(list)
   list.each do |cohort, number|
     puts "#{cohort}: #{number} students"
@@ -33,7 +34,7 @@ students.delete(:cohort2)
 
 puts students
 
-# 7
+# 7 BONUS
 
 total_students = 0
 students.each do |cohort, number|
@@ -41,3 +42,15 @@ students.each do |cohort, number|
 end
 
 puts total_students
+
+# 8 BONUS
+
+staff = {:cohort1 => 2, :cohort2 => 3, :cohort3 => 1}
+
+def statement(list)
+  list.each do |cohort, number|
+    puts "#{cohort}: #{number} staff"
+  end
+end
+
+statement(staff)
