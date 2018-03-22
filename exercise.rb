@@ -161,7 +161,7 @@ new_array2 = []
 
 country.each do |profile|
   if profile[:island] == false
-    new_array1 << profile
+    new_array1.push(profile)
   else
     new_array2 << profile
   end
