@@ -174,10 +174,64 @@ country = [{name: "Canada", continent: "North America", island: false}, {name: "
 
 # Exercise 8
 
-expenses = [120, 229, 178, 203, 180]
+# expenses = [120, 229, 178, 203, 180]
+#
+# sum = 0
+# expenses.each do |numbers|
+#   sum += numbers
+# end
+# puts sum
 
-sum = 0
-expenses.each do |numbers|
-  sum += numbers
+
+
+# Exercise 9
+
+grocery = ["blueberries", "yogurt", "cookies", "milk", "bananas"]
+
+def grab(list)
+  list.each do |item|
+    puts "* #{item}"
+  end
 end
-puts sum
+
+grab(grocery)
+
+
+def number_of_items(list)
+  puts "There are #{list.length} items to pick up."
+end
+
+number_of_items(grocery)
+
+
+def bananas(list)
+  if list.include?("bananas")
+    puts "You don't need to pick up bananas today"
+  else
+    puts "You need to pick up bananas today."
+  end
+end
+
+bananas(grocery)
+
+
+def second(list)
+  puts list[1]
+end
+
+second(grocery)
+
+
+def order(list)
+  puts list.sort
+end
+
+order(grocery)
+
+
+def delete_milk(list)
+  list.delete("milk")
+end
+
+delete_milk(grocery)
+grab(grocery)
