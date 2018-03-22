@@ -37,3 +37,29 @@ family = {Kat: 22, Karen: 21, Ernest: 17}
 # 5
 # heads_array = coin_flip.select { |side| side == "heads" }
 # puts heads_array
+
+# Strech Exercise 2
+
+my_dogs = [{:name => "Ralph", :position => 5}, {:name => "Cindy", :position => 8}, {:name => "Jade", :position => 11}]
+neighbours_dogs = [{:name => "Sport", :position => 12}, {:name => "Bud", :position => 6}, {:name => "Prince", :position => 11}]
+
+# 1
+def get_absent_dogs(list)
+  list.select do |profile|
+    profile[:position] > 10
+  end
+end
+
+puts get_absent_dogs(my_dogs)
+
+# 2
+def call_absent_dogs(absent_dogs)
+  absent_dogs.each do |dog|
+    puts "Come back, #{dog[:name]}!"
+  end
+end
+
+call_absent_dogs(get_absent_dogs(my_dogs))
+
+# 3
+call_absent_dogs(get_absent_dogs(neighbours_dogs))
